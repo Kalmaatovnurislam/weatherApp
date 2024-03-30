@@ -1,0 +1,30 @@
+
+
+
+.country__wrap{
+    width: 884px;
+    height: 244px;
+    border-radius: 40px;
+    background: #deab4d;
+    padding: 20px 35px;
+    margin-bottom: 31px;
+}
+
+.country__wrap:last-child{
+    height: 262px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .country__wrap:first-child{
+        display: none;
+    }
+
+    .country__wrap:last-child{
+        width: 382px;
+    }
+}

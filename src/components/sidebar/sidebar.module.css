@@ -1,0 +1,13 @@
+.sidebar{
+    width: 100px;
+    height: 537px;
+    background-repeat: 40px;
+    background: #DEAB4D;
+    padding: 20px;
+}
+
+@media (max-width:768px) {
+    .sidebar{
+        display: none;
+    }
+}

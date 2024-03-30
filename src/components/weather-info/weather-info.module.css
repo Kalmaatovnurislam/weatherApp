@@ -1,0 +1,19 @@
+.info__wrap {
+    height: 537px;
+    width: 324px;
+    background-repeat: 40px;
+    background: #DEAB4D;
+   padding-top: 34px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+
+
+
+@media (max-width:768px) {
+    .info__wrap{
+    display: none;
+    
+    }
+}
